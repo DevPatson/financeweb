@@ -54,7 +54,10 @@
   <header class="header" data-header>
     <div class="container">
 
-      
+      <button class="nav-toggle-btn" aria-label="toggle manu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" aria-label="true" class="close-icon"></ion-icon>
+      </button>
 
       <a href="#" class="logo">Company</a>
       <button style="visibility: hidden;" class="nav-toggle-btn" aria-label="toggle manu" data-nav-toggler>
@@ -62,8 +65,32 @@
         <ion-icon name="close-outline" aria-label="true" class="close-icon"></ion-icon>
       </button>
       <nav class="navbar" data-navbar>
-        
+        <ul class="navbar-list">
 
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          
+
+          <li class="navbar-item">
+            <a href="#mission" class="navbar-link" data-nav-link>Our mission</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#service" class="navbar-link" data-nav-link>Services</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#commitment" class="navbar-link" data-nav-link>Our Commitment</a>
+          </li>
+
+
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
+        </ul>
+
+        <a href="#" class="navbar-action-btn">Log In</a>
       </nav>
 
       <div class="header-actions">
@@ -113,15 +140,264 @@
 
 
       <!-- OUR MISSION -->
-    
+      <div id="mission" class="responsive-container-block bigContainer">
+        <div class="responsive-container-block Container">
+
+
+          <h2 class="h2 section-title">
+            <span class="span">
+              Our
+            </span>
+            Mission
+          </h2>
+          <p class="text-blk subHeading">
+            Our mission is to provide seamless access to financial solutions tailored to the diverse needs of
+            individuals and businesses. We are committed to fostering financial inclusion, empowering our clients to
+            achieve their goals, and building long-term relationships based on trust, transparency, and exceptional
+            service. By leveraging innovation and expertise, we strive to create opportunities for growth, security, and
+            financial well-being, making a positive impact in the communities we serve.
+          </p>
+
+        </div>
+      </div>
 
 
       <!-- SERVICES -->
 
-     
+      <div id="service" class="containerN" style="padding-block: 40px;">
+
+        <h2 class="h2 section-title" style="margin-top: 5rem;">
+          <span class="span">Our<br></span> Services
+        </h2>
+
+        <div class="gradient-cards">
+          <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="cardN ">
+            <div class="container-card bg-green-box">
+              <img height="70" width="70" src="./assets/images/real-estate.png" alt="" srcset="">
+              <defs>
+                <linearGradient id="paint0_linear_1366_4547" x1="0.0063367" y1="0.168432" x2="120.853" y2="119.009"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#2FCB89" stop-opacity="0.7"></stop>
+                  <stop offset="0.489583" stop-color="#2FCB89" stop-opacity="0"></stop>
+                  <stop offset="1" stop-color="#2FCB89" stop-opacity="0.7"></stop>
+                </linearGradient>
+                <radialGradient id="paint1_radial_1366_4547" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(60 60) rotate(96.8574) scale(122.674 149.921)">
+                  <stop stop-color="#54E8A9"></stop>
+                  <stop offset="1" stop-color="#1A3E31" stop-opacity="0.2"></stop>
+                </radialGradient>
+              </defs>
+              </svg>
+              <p class="card-title">Home Loan</p>
+              <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vero culpa nihil
+                praesentium cupiditate eaque tempore. Pariatur corporis quia tempore laboriosam eius nihil eveniet,
+                voluptas, error nostrum libero dicta necessitatibus. Temporibus eius corrupti mollitia odit!</p>
+            </div>
+          </div>
+
+          <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="cardN">
+            <div class="container-card bg-green-box">
+              <img height="70" width="70" src="./assets/images/car-loan.png" alt="" srcset="">
+              <defs>
+                <linearGradient id="paint0_linear_1366_4547" x1="0.0063367" y1="0.168432" x2="120.853" y2="119.009"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#2FCB89" stop-opacity="0.7"></stop>
+                  <stop offset="0.489583" stop-color="#2FCB89" stop-opacity="0"></stop>
+                  <stop offset="1" stop-color="#2FCB89" stop-opacity="0.7"></stop>
+                </linearGradient>
+                <radialGradient id="paint1_radial_1366_4547" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(60 60) rotate(96.8574) scale(122.674 149.921)">
+                  <stop stop-color="#54E8A9"></stop>
+                  <stop offset="1" stop-color="#1A3E31" stop-opacity="0.2"></stop>
+                </radialGradient>
+              </defs>
+              </svg>
+              <p class="card-title">Car Loan</p>
+              <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse natus
+                dignissimos cupiditate et dolore similique facilis molestias hic, porro necessitatibus ex omnis impedit
+                accusamus debitis mollitia expedita, magnam, autem iure itaque quidem labore est iste!</p>
+            </div>
+          </div>
+
+
+          <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="cardN">
+            <div class="container-card bg-green-box">
+              <img height="70" width="70" src="./assets/images/pay.png" alt="" srcset="">
+              <defs>
+                <linearGradient id="paint0_linear_1366_4547" x1="0.0063367" y1="0.168432" x2="120.853" y2="119.009"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#2FCB89" stop-opacity="0.7"></stop>
+                  <stop offset="0.489583" stop-color="#2FCB89" stop-opacity="0"></stop>
+                  <stop offset="1" stop-color="#2FCB89" stop-opacity="0.7"></stop>
+                </linearGradient>
+                <radialGradient id="paint1_radial_1366_4547" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(60 60) rotate(96.8574) scale(122.674 149.921)">
+                  <stop stop-color="#54E8A9"></stop>
+                  <stop offset="1" stop-color="#1A3E31" stop-opacity="0.2"></stop>
+                </radialGradient>
+              </defs>
+              </svg>
+              <p class="card-title">Business Loan</p>
+              <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, ea in? Odio
+                nulla voluptatum totam id voluptas maiores iste, animi eius enim tempora? Nam, accusamus itaque
+                recusandae architecto beatae tempora velit mollitia? Quos, dolorum necessitatibus.</p>
+            </div>
+          </div>
+
+
+          <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="cardN">
+            <div class="container-card bg-green-box">
+              <img height="70" width="70" src="./assets/images/gold.png" alt="" srcset="">
+              <defs>
+                <linearGradient id="paint0_linear_1366_4547" x1="0.0063367" y1="0.168432" x2="120.853" y2="119.009"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#2FCB89" stop-opacity="0.7"></stop>
+                  <stop offset="0.489583" stop-color="#2FCB89" stop-opacity="0"></stop>
+                  <stop offset="1" stop-color="#2FCB89" stop-opacity="0.7"></stop>
+                </linearGradient>
+                <radialGradient id="paint1_radial_1366_4547" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(60 60) rotate(96.8574) scale(122.674 149.921)">
+                  <stop stop-color="#54E8A9"></stop>
+                  <stop offset="1" stop-color="#1A3E31" stop-opacity="0.2"></stop>
+                </radialGradient>
+              </defs>
+              </svg>
+              <p class="card-title">Gold Loan</p>
+              <p class="card-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus
+                reiciendis quae debitis quisquam a corrupti dolorum expedita odio consequuntur, sit repellat officiis
+                tempore dolorem placeat unde sunt voluptas eaque tempora esse exercitationem modi? Voluptates, nesciunt.
+              </p>
+            </div>
+          </div>
+
+
+          <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="cardN">
+            <div class="container-card bg-green-box">
+              <img height="70" width="70" src="./assets/images/tuition.png" alt="" srcset="">
+              <defs>
+                <linearGradient id="paint0_linear_1366_4547" x1="0.0063367" y1="0.168432" x2="120.853" y2="119.009"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#2FCB89" stop-opacity="0.7"></stop>
+                  <stop offset="0.489583" stop-color="#2FCB89" stop-opacity="0"></stop>
+                  <stop offset="1" stop-color="#2FCB89" stop-opacity="0.7"></stop>
+                </linearGradient>
+                <radialGradient id="paint1_radial_1366_4547" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(60 60) rotate(96.8574) scale(122.674 149.921)">
+                  <stop stop-color="#54E8A9"></stop>
+                  <stop offset="1" stop-color="#1A3E31" stop-opacity="0.2"></stop>
+                </radialGradient>
+              </defs>
+              </svg>
+              <p class="card-title">Education Loan</p>
+              <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim molestiae
+                exercitationem autem placeat quam facere reiciendis. Eum, omnis debitis? Obcaecati accusamus eveniet
+                quidem soluta totam quibusdam quas excepturi corporis magni!</p>
+            </div>
+          </div>
+
+
+          <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="cardN">
+            <div class="container-card bg-green-box">
+              <img height="70" width="70" src="./assets/images/debit-card.png" alt="" srcset="">
+              <defs>
+                <linearGradient id="paint0_linear_1366_4547" x1="0.0063367" y1="0.168432" x2="120.853" y2="119.009"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#2FCB89" stop-opacity="0.7"></stop>
+                  <stop offset="0.489583" stop-color="#2FCB89" stop-opacity="0"></stop>
+                  <stop offset="1" stop-color="#2FCB89" stop-opacity="0.7"></stop>
+                </linearGradient>
+                <radialGradient id="paint1_radial_1366_4547" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(60 60) rotate(96.8574) scale(122.674 149.921)">
+                  <stop stop-color="#54E8A9"></stop>
+                  <stop offset="1" stop-color="#1A3E31" stop-opacity="0.2"></stop>
+                </radialGradient>
+              </defs>
+              </svg>
+              <p class="card-title">Credit Cards</p>
+              <p class="card-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab doloribus tempora
+                accusamus, numquam voluptatibus est alias qui error sunt sed nam rem perferendis dolores. Fugiat
+                blanditiis non eum corporis? Illum placeat ipsa eius praesentium nihil.</p>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
 
       <!-- WE ARE COMMITED -->
-      
+      <div id="commitment" class="container" style="padding-block: 40px;">
+        <p style="text-align: center;" class="text-blk heading">We are commited to</p>
+        <div class="cards">
+          <article data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+            class="information [ card ]">
+            <span class="tag">#1</span>
+            <h2 class="title">Lorem, ipsum.</h2>
+            <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto omnis ab modi totam doloribus
+              odit voluptatem, magnam, laudantium blanditiis optio maxime unde recusandae laboriosam ipsam consequuntur
+              libero natus porro eaque deserunt? Error tenetur hic numquam corporis dolor, harum pariatur consectetur!
+            </p>
+
+          </article>
+
+          <article data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+            class="information [ card ]">
+            <span class="tag">#2</span>
+            <h2 class="title">Lorem, ipsum.</h2>
+            <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto omnis ab modi totam doloribus
+              odit voluptatem, magnam, laudantium blanditiis optio maxime unde recusandae laboriosam ipsam consequuntur
+              libero natus porro eaque deserunt? Error tenetur hic numquam corporis dolor, harum pariatur consectetur!
+            </p>
+
+
+          </article>
+
+          <article data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+            class="information [ card ]">
+            <span class="tag">#3</span>
+            <h2 class="title">Lorem, ipsum.</h2>
+            <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto omnis ab modi totam doloribus
+              odit voluptatem, magnam, laudantium blanditiis optio maxime unde recusandae laboriosam ipsam consequuntur
+              libero natus porro eaque deserunt? Error tenetur hic numquam corporis dolor, harum pariatur consectetur!
+            </p>
+
+          </article>
+
+          <article data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+            class="information [ card ]">
+            <span class="tag">#4</span>
+            <h2 class="title">Lorem, ipsum.</h2>
+            <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto omnis ab modi totam doloribus
+              odit voluptatem, magnam, laudantium blanditiis optio maxime unde recusandae laboriosam ipsam consequuntur
+              libero natus porro eaque deserunt? Error tenetur hic numquam corporis dolor, harum pariatur consectetur!
+            </p>
+
+
+          </article>
+
+          <article data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+            class="information [ card ]">
+            <span class="tag">#5</span>
+            <h2 class="title">Lorem, ipsum.</h2>
+            <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto omnis ab modi totam doloribus
+              odit voluptatem, magnam, laudantium blanditiis optio maxime unde recusandae laboriosam ipsam consequuntur
+              libero natus porro eaque deserunt? Error tenetur hic numquam corporis dolor, harum pariatur consectetur!
+            </p>
+
+          </article>
+
+          <article data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+            class="information [ card ]">
+            <span class="tag">#6</span>
+            <h2 class="title">Lorem, ipsum.</h2>
+            <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto omnis ab modi totam doloribus
+              odit voluptatem, magnam, laudantium blanditiis optio maxime unde recusandae laboriosam ipsam consequuntur
+              libero natus porro eaque deserunt? Error tenetur hic numquam corporis dolor, harum pariatur consectetur!
+            </p>
+
+          </article>
+        </div>
+      </div>
 
 
       <!-- PRODUCT INFORMATION -->
@@ -134,7 +410,60 @@
         - #OFFERS
       -->
 
-       
+      <!-- <section class="section offer" aria-label="offer">
+        <div class="container">
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="offer-card has-bg-image img-holder"
+                style="background-image: url('./assets/images/offer-banner-1.jpg'); --width: 540; --height: 374;">
+
+                <p class="card-subtitle">Selected Items. Online Only.</p>
+
+                <h3 class="h3 card-title">
+                  Every Meal <span class="span">Counts</span>
+                </h3>
+
+                <a href="#" class="btn">Read More</a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="offer-card has-bg-image img-holder"
+                style="background-image: url('./assets/images/offer-banner-2.jpg'); --width: 540; --height: 374;">
+
+                <p class="card-subtitle">Treats & Grooming</p>
+
+                <h3 class="h3 card-title">
+                  Spoil your true <span class="span">love</span>
+                </h3>
+
+                <a href="#" class="btn">Read More</a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="offer-card has-bg-image img-holder"
+                style="background-image: url('./assets/images/offer-banner-3.jpg'); --width: 540; --height: 374;">
+
+                <p class="card-subtitle">Our Brand You Will Love</p>
+
+                <h3 class="h3 card-title">
+                  New in this <span class="span">year</span>
+                </h3>
+
+                <a href="#" class="btn">Read More</a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section> -->
 
 
 
@@ -152,7 +481,91 @@
         - #SERVICE
       -->
 
-     
+      <section class="section service" aria-label="service">
+        <div class="container" style="padding-bottom: 30px;">
+
+          <img src="./assets/images/personal.png" width="122" height="136" loading="lazy" alt="" class="img">
+
+          <h2 class="h2 section-title">
+            <span class="span">What Sets Us Apart,</span> Key Benefits
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/answer.png" width="70" height="70" loading="lazy" alt="service icon">
+                </figure>
+
+                <h3 style="color: var(--eerie-black);" class="h3 card-title">Flexible Loan Options</h3>
+
+                <p class="card-text">
+                  Diverse loan products and customizable repayment plans to cater to individual and business-specific
+                  financial needs.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/approved.png" width="70" height="70" loading="lazy" alt="service icon">
+                </figure>
+
+                <h3 style="color: var(--eerie-black);" class="h3 card-title">Quick Approvals</h3>
+
+                <p class="card-text">
+                  Streamlined application processes and fast loan approvals to provide access to funds when you need
+                  them the most.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/transparency.png" width="70" height="70" loading="lazy" alt="service icon">
+                </figure>
+
+                <h3 style="color: var(--eerie-black);" class="h3 card-title">Transparency in Processes
+                </h3>
+
+                <p class="card-text">
+                  Clear and honest communication about interest rates, fees, and terms, fostering trust and confidence
+                  with no hidden surprises.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/customer-service.png" width="70" height="70" loading="lazy"
+                    alt="service icon">
+                </figure>
+
+                <h3 style="color: var(--eerie-black);" class="h3 card-title">Better Customer Service</h3>
+
+                <p class="card-text">
+                  Dedicated support teams ensure personalized assistance, quick resolutions, and a seamless experience
+                  throughout your loan journey.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
 
 
 
@@ -201,7 +614,169 @@
         </div>
       </section>
       
-     
+      <!-- TESTIMONIAL -->
+
+      <section class="section category" aria-label="category">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            <span class="span">Impact</span> Testimonials
+          </h2>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <!-- <div class="category-card">
+
+                <figure class="card-banner img-holder" style="--width: 330; --height: 300;">
+                  <img src="./assets/images/category-1.jpg" width="330" height="300" loading="lazy" alt="Cat Food"
+                    class="img-cover">
+                </figure>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Cat Food</a>
+                </h3>
+
+              </div> -->
+              <div class="div1 eachdiv">
+                <div class="userdetails">
+                  <div class="detbox">
+                    <p class="name">Priya Sharma</p>
+                    <p class="designation">Business owner</p>
+                  </div>
+                </div>
+                <div class="review">
+                  <h4>Lorem ipsum dolor sit amet consectetur..</h4>
+                  <p>“ Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam facilis culpa, voluptate quam
+                    quia exercitationem consequuntur quae optio atque tenetur omnis magnam, aspernatur natus officiis
+                    eligendi voluptatum possimus officia eius nostrum neque recusandae nisi commodi et? Cumque nihil
+                    atque illum incidunt fugit, est reprehenderit minus necessitatibus ad reiciendis ipsam neque?”</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="div1 eachdiv">
+                <div class="userdetails">
+                  <div class="detbox">
+                    <p class="name">Rohit Deshmukh</p>
+                    <p class="designation">Business owner</p>
+                  </div>
+                </div>
+                <div class="review">
+                  <h4>Lorem ipsum dolor sit amet consectetur..</h4>
+                  <p>“ Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam facilis culpa, voluptate quam
+                    quia exercitationem consequuntur quae optio atque tenetur omnis magnam, aspernatur natus officiis
+                    eligendi voluptatum possimus officia eius nostrum neque recusandae nisi commodi et? Cumque nihil
+                    atque illum incidunt fugit, est reprehenderit minus necessitatibus ad reiciendis ipsam neque?”</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="div1 eachdiv">
+                <div class="userdetails">
+                  <div class="detbox">
+                    <p class="name">Anjali Iyer</p>
+                    <p class="designation">Business owner</p>
+                  </div>
+                </div>
+                <div class="review">
+                  <h4>Lorem ipsum dolor sit amet consectetur..</h4>
+                  <p>“ Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam facilis culpa, voluptate quam
+                    quia exercitationem consequuntur quae optio atque tenetur omnis magnam, aspernatur natus officiis
+                    eligendi voluptatum possimus officia eius nostrum neque recusandae nisi commodi et? Cumque nihil
+                    atque illum incidunt fugit, est reprehenderit minus necessitatibus ad reiciendis ipsam neque?”</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="div1 eachdiv">
+                <div class="userdetails">
+                  <div class="detbox">
+                    <p class="name">Arjun Patel</p>
+                    <p class="designation">Business owner</p>
+                  </div>
+                </div>
+                <div class="review">
+                  <h4>Lorem ipsum dolor sit amet consectetur..</h4>
+                  <p>“ Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam facilis culpa, voluptate quam
+                    quia exercitationem consequuntur quae optio atque tenetur omnis magnam, aspernatur natus officiis
+                    eligendi voluptatum possimus officia eius nostrum neque recusandae nisi commodi et? Cumque nihil
+                    atque illum incidunt fugit, est reprehenderit minus necessitatibus ad reiciendis ipsam neque?”</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="div1 eachdiv">
+                <div class="userdetails">
+                  <div class="detbox">
+                    <p class="name">Meera Reddy</p>
+                    <p class="designation">Business owner</p>
+                  </div>
+                </div>
+                <div class="review">
+                  <h4>Lorem ipsum dolor sit amet consectetur..</h4>
+                  <p>“ Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam facilis culpa, voluptate quam
+                    quia exercitationem consequuntur quae optio atque tenetur omnis magnam, aspernatur natus officiis
+                    eligendi voluptatum possimus officia eius nostrum neque recusandae nisi commodi et? Cumque nihil
+                    atque illum incidunt fugit, est reprehenderit minus necessitatibus ad reiciendis ipsam neque?”</p>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta has-bg-image" aria-label="cta"
+        style="background-image: url('./assets/images/cta-bg-updated.jpg')">
+        <div class="container">
+
+          <figure class="cta-banner" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="500"
+          data-aos-easing="ease-in-out" style="
+          padding-block: 80px;
+          padding-inline: 100px;">
+            <img src="./assets/images/profits.png" width="400" height="70" loading="lazy" alt="cat">
+          </figure>
+
+          <div class="cta-content">
+
+            <!-- <img src="./assets/images/cta-icon2.png" width="120" height="35" loading="lazy" alt="taste guarantee"
+              class="img"> -->
+
+            <h2 style="color: #eaeef6;" class="h2 section-title">Get Started Today, Unlock Your Financial Future</h2>
+
+            <p class="section-text">
+              Unlock your financial potential with [Company Name]. Whether it’s for personal, business, or home needs, our loan solutions offer quick approvals, flexible terms, and competitive rates. Apply today and take control of your future!
+            </p>
+
+            <a href="#productMainContainer" class="btn">Get Started</a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BRAND
+      -->
+
+
+
+    </article>
+  </main>
 
 
 
